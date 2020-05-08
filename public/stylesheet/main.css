@@ -1,0 +1,113 @@
+
+@-webkit-keyframes rotate {
+   0% { -webkit-transform: rotate(0deg) scale(1.0); }
+   100% { -webkit-transform: rotate(360deg) scale(1.1); }
+ }
+ @-moz-keyframes rotate {
+   0% { -moz-transform: rotate(0deg) scale(1.0); }
+   100% { -moz-transform: rotate(360deg) scale(1.1); }
+ }
+ @-o-keyframes rotate {
+   0% { -o-transform: rotate(0deg) scale(1.0); }
+   100% { -o-transform: rotate(360deg) scale(1.1); }
+ }
+ @-ms-keyframes rotate {
+   0% { -ms-transform: rotate(0deg) scale(1.0); }
+   100% { -ms-transform: rotate(360deg) scale(1.1); }
+ }
+ @keyframes rotate {
+   0% { transform: rotate(0deg) scale(1.0); }
+   100% { transform: rotate(360deg) scale(1.1); }
+ }
+ @-webkit-keyframes rori {
+   0% { -webkit-transform: rotate(360deg) scale(1.1); }
+   100% { -webkit-transform: rotate(0deg) scale(1.0); }
+ }
+ @-moz-keyframes rori {
+   0% { -moz-transform: rotate(360deg) scale(1.1); }
+   100% { -moz-transform: rotate(0deg) scale(1.0); }
+ }
+ @-o-keyframes rori {
+   0% { -o-transform: rotate(360deg) scale(1.1); }
+   100% { -o-transform: rotate(0deg) scale(1.0); }
+ }
+ @-ms-keyframes rori {
+   0% { -ms-transform: rotate(360deg) scale(1.1); }
+   100% { -ms-transform: rotate(0deg) scale(1.0); }
+ }
+ @keyframes rori {
+   0% { transform: rotate(360deg) scale(1.1); }
+   100% { transform: rotate(0deg) scale(1.0); }
+ }
+ div.tag img:hover {
+   -webkit-animation-name: rotate;
+   -moz-animation-name: rotate;
+   -ms-animation-name: rotate;
+   -o-animation-name: rotate;
+   animation-name: rotate;
+   -webkit-animation-duration: 500ms;
+   -moz-animation-duration: 500ms;
+   -ms-animation-duration: 500ms;
+   -o-animation-duration: 500ms;
+   animation-duration: 500ms;
+   -webkit-animation-iteration-count: 1;
+   -moz-animation-iteration-count: 1;
+   -ms-animation-iteration-count: 1;
+   -o-animation-iteration-count: 1;
+   animation-iteration-count: 1;
+   -webkit-animation-timing-function: ease;
+   -moz-animation-timing-function: ease;
+   -ms-animation-timing-function: ease;
+   -o-animation-timing-function: ease;
+   animation-timing-function: ease;
+   -webkit-animation-fill-mode: forwards;
+   -moz-animation-fill-mode: forwards;
+   -ms-animation-fill-mode: forwards;
+   -o-animation-fill-mode: forwards;
+   animation-fill-mode: forwards;
+   cursor: url('https://ia801504.us.archive.org/31/items/abcde_201612/aero_link2.cur'), auto !important;
+ }
+ div.tag img {
+   -webkit-animation-name: rori;
+   -moz-animation-name: rori;
+   -ms-animation-name: rori;
+   -o-animation-name: rori;
+   animation-name: rori;
+   -webkit-animation-duration: 500ms;
+   -moz-animation-duration: 500ms;
+   -ms-animation-duration: 500ms;
+   -o-animation-duration: 500ms;
+   animation-duration: 500ms;
+   -webkit-animation-iteration-count: 1;
+   -moz-animation-iteration-count: 1;
+   -ms-animation-iteration-count: 1;
+   -o-animation-iteration-count: 1;
+   animation-iteration-count: 1;
+   -webkit-animation-timing-function: ease;
+   -moz-animation-timing-function: ease;
+   -ms-animation-timing-function: ease;
+   -o-animation-timing-function: ease;
+   animation-timing-function: ease;
+   vertical-align: middle;
+   max-width: 90px;
+   max-height: 90px;
+   text-align: center;
+   border: 1px solid #87CEEB !important;
+   background-color: #D9F9FF;
+   margin: 25px;
+   cursor: url('https://ia801504.us.archive.org/31/items/abcde_201612/aero_link2.cur'), auto !important;
+ }
+
+.logo {
+
+    border-radius: 6px;
+    box-shadow: 0 2px 3px rgb(255,255,255), 0 0 0 1px rgb(255,255,255);
+    color:  #fff;
+    display: block;
+    padding: 1.25rem;
+    margin-top: 20px;
+}
+.title{
+   text-align: center;
+}
+
