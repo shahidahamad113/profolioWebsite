@@ -310,8 +310,9 @@ h4{
 }
 .footer-container{
 	background-color: #181818;
-	margin-top: 6rem;
-
+}
+.sm{
+	height: 340px;
 }
 .footer .container{
 	width: 50%;
