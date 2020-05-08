@@ -304,6 +304,31 @@ h4{
 .mapouter{
 	padding-bottom:37em; position:relative; width: 100%
 }
+.footer-inner{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+}
+.footer-container{
+	background-color: #181818;
+	margin-top: 6rem;
+
+}
+.footer .container{
+	width: 50%;
+}
+.footer{
+	display: none;
+	max-width: 100%;
+	margin: 1rem auto;
+	overflow: auto;
+  }
+  .footer, .footer a{
+	color: #08fdd8;
+	font-size: 2.7rem;
+  }
+  .footer, .footer a:hover{
+	  font-size: 3.8rem;
+  }
 .set{
 	color: #fff;
 	font-family: 'Roboto',sans-serif;
@@ -452,7 +477,9 @@ input{
 	}
 }
 @media (max-width: 530px)
-{
+{   .footer{
+	display: inline;
+}
 	#nav_bar{
 		position: fixed;
 	}
