@@ -8,6 +8,11 @@ body{
 .active{
 	color: aqua;
 }
+.contact{
+	display: grid;
+	grid-template-columns: 1 3fr;
+	grid-gap: 5rem;
+}
 
 #nav_bar {
 	background: #181818;
