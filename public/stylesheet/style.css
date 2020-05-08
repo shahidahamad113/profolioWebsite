@@ -372,6 +372,21 @@ input{
 	text-align: center;
 	margin-right: 10px;
   }
+  .flat-btn{
+	color: aqua;
+	font-size: 11px;
+	letter-spacing: 3px;
+	font-family: "Open Sans",sans-serif;
+	padding: 8px 10px;
+	background: 0 0;
+	border: 1px solid #08fdd8;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 4px;
+  }
+  .flat-btn a{
+	  color: #08fdd8;
+  }
 @media (max-width:960px){
 	#page {
 		height: auto;
