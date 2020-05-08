@@ -312,10 +312,11 @@ h4{
 	background-color: #181818;
 }
 .sm{
-	height: 340px;
+	height: 320px;
 }
 .footer .container{
 	width: 50%;
+	margin-top: 2rem;
 }
 .footer{
 	display: none;
