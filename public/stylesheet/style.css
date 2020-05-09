@@ -304,10 +304,6 @@ h4{
 .mapouter{
 	padding-bottom:37em; position:relative; width: 100%
 }
-.footer-inner{
-	display: grid;
-	grid-template-columns: repeat(3,1fr);
-}
 .footer-container{
 	background-color: #181818;
 }
@@ -479,7 +475,9 @@ input{
 	}
 }
 @media (max-width: 530px)
-{   .footer{
+{ 
+	
+  .footer{
 	display: inline;
 }
 	#nav_bar{
