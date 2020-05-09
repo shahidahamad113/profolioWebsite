@@ -323,6 +323,7 @@ h4{
   .footer, .footer a{
 	color: #08fdd8;
 	font-size: 2.7rem;
+	margin-left: 1.2rem;
   }
   .footer, .footer a:hover{
 	  font-size: 3.8rem;
