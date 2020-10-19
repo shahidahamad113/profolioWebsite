@@ -98,16 +98,10 @@
    cursor: url('https://ia801504.us.archive.org/31/items/abcde_201612/aero_link2.cur'), auto !important;
  }
 
-.logo {
 
-    border-radius: 6px;
-    box-shadow: 0 2px 3px rgb(255,255,255), 0 0 0 1px rgb(255,255,255);
-    color:  #fff;
-    display: block;
-    padding: 1.25rem;
-    margin-top: 20px;
-}
 .title{
    text-align: center;
 }
-
+.home{
+  margin-left: -91px;
+}

@@ -1,7 +1,28 @@
 body{
 	background: #1d1d1d;
 }
+/*contact*/
 
+.contact{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	margin: 7rem;
+}
+
+/*Home*/
+
+
+.logo {
+	border-radius: 6px;
+	box-shadow: 0 2px 3px rgb(255,255,255), 0 0 0 1px rgb(255,255,255);
+    color:  #fff;
+	display: flex;
+	justify-content: flex-start;
+	background-size: cover;
+	flex: 0 1 auto;
+    padding: 1.25rem;
+    margin-top: 20px;
+}
 .link{
 	  color: aqua
 }
@@ -308,7 +329,7 @@ h4{
 	background-color: #181818;
 }
 .sm{
-	height: 320px;
+	min-height: 209px;
 }
 .footer .container{
 	width: 50%;
@@ -472,12 +493,15 @@ input{
 		margin: 0 10px;
 	}
 	.word{
-		margin-left: 70px;
+		margin-left: 0;
 	}
 }
-@media (max-width: 530px)
-{ 
-	
+@media (max-width: 530px){ 
+	.contact{
+		display: block;
+		margin: 1.7rem;
+	}
+
   .footer{
 	display: inline;
 }
@@ -525,21 +549,20 @@ input{
 	#mobile-link:hover {
 		color: aqua;
 	}
-	.word{
-		margin-left: 15px;
-		margin-bottom: 7px;
-	}
 	.word span {
 		font-size: 47px;
 	}
 	.set{
-		margin-left: 15px;
+		margin-left: 0;
 		width: 270px;
 
 	}
 	.mapouter{
 		margin-top: 500px;
 		padding-bottom: 25em;
+	}
+	.logo{
+		display: block;
 	}
 }
 
