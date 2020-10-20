@@ -2,7 +2,7 @@ body{
 	background: #1d1d1d;
 }
 
-/*Home*/
+/* Home*/
 .home-page{
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
