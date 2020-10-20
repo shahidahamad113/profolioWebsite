@@ -259,6 +259,36 @@ h4{
     display: none;
 }
 @media (max-width:960px){
+	.home-page{
+		margin: 2rem;
+		display: block;
+	}
+	.home-image{
+		height: 400px;
+		width: 400px;
+		margin-top: 4rem;
+	}
+	.contact{
+		display: block;
+		margin: 3rem;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+	.skills{
+		display: block;
+		margin: 2rem;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+	.about{
+		display: block;
+		margin: 4rem;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
 	#page {
 		height: auto;
 		position: relative;
@@ -322,37 +352,13 @@ h4{
 		margin-left: 0;
 	}
 }
-@media (max-width: 530px){ 
-	.home-page{
-		margin: 2rem;
-		display: block;
-	}
+@media (max-width: 530px){
 	.home-image{
 		height: 300px;
 		width: 300px;
 		margin-top: 4rem;
 	}
-	.contact{
-		display: block;
-		margin: 3rem;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-	}
-	.skills{
-		display: block;
-		margin: 2rem;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-	}
-	.about{
-		display: block;
-		margin: 4rem;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-	}
+	
 	.skills-inner{
 		margin: 2rem;
 	}
