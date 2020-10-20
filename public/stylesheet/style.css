@@ -8,6 +8,10 @@ body{
 	grid-template-columns: repeat(2,1fr);
 	margin: 1rem;
 }
+.home-image{
+	height: 550px;
+	width: 600px;
+}
 
 /*skills*/
 
@@ -321,6 +325,12 @@ h4{
 @media (max-width: 530px){ 
 	.home-page{
 		margin: 2rem;
+		display: block;
+	}
+	.home-image{
+		height: 300px;
+		width: 300px;
+		margin-top: 4rem;
 	}
 	.contact{
 		display: block;
