@@ -217,6 +217,7 @@ textarea{
 }
 .footer-container{
 	background-color: #181818;
+	height: 60px;
 }
 .footer .container{
 	width: 60%;
