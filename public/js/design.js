@@ -12,21 +12,6 @@ span.addEventListener('animationend', (e) => {
 	e.target.classList.remove('active');
 });
 
-document.onreadystatechange = function() { 
-	if (document.readyState !== "complete") { 
-		document.querySelector( 
-		  "body").style.visibility = "hidden"; 
-		document.querySelector( 
-		  "#loader").style.visibility = "visible"; 
-	} else { 
-		document.querySelector( 
-		  "#loader").style.display = "none"; 
-		document.querySelector( 
-		  "body").style.visibility = "visible"; 
-	} 
-}; 
-	
-	// Initial animation
 setTimeout(() => {
 	span.classList.add('active');
 	}, 750 * (idx+1))
